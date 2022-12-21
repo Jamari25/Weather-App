@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Weather App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div class="card">
+
+    <form class="searchForm">
+
+      <input type="text" name="location" placeholder="Search City or Postcode">
+
+      <button> <img id = 'search' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/VisualEditor_-_Icon_-_Search-big_-_white.svg/1200px-VisualEditor_-_Icon_-_Search-big_-_white.svg.png" alt="Search button"> </button>
+    </form>
+
+    <h2 id = 'location'>Pick a location to start</h2>
+    <h1 id = 'temp'>0°C</h1>
+
+    <div id="imgContainer">
+      <div class = 'conditions' id = 'condition'>Conditions</div>
+    </div>
+      <div class="data" id = 'rain'>Rain</div>
+      <div class="data" id = 'windSpeed'>Wind speed</div>
+
+  </div>
+
+   <div class="table">
+    <table class="">
+      
+      <thead>
+
+        <tr>
+          <th scope="col" class="black">Todays forcast</th>
+          <th scope="col" class="black">00:00</th>
+          <th scope="col" class="black">01:00</th>
+          <th scope="col" class="black">02:00</th>
+          <th scope="col" class="black">03:00</th>
+          <th scope="col" class="black">04:00</th>
+          <th scope="col" class="black">05:00</th>
+          <th scope="col" class="black">06:00</th>
+          <th scope="col" class="black">07:00</th>
+          <th scope="col" class="black">08:00</th>
+          <th scope="col" class="black">09:00</th>
+          <th scope="col" class="black">11:00</th>
+          <th scope="col" class="black">12:00</th>
+          <th scope="col" class="black">13:00</th>
+          <th scope="col" class="black">14:00</th>
+          <th scope="col" class="black">15:00</th>
+          <th scope="col" class="black">16:00</th>
+          <th scope="col" class="black">17:00</th>
+          <th scope="col" class="black">18:00</th>
+          <th scope="col" class="black">19:00</th>
+          <th scope="col" class="black">20:00</th>
+          <th scope="col" class="black">21:00</th>
+          <th scope="col" class="black">22:00</th>
+          <th scope="col" class="black">23:00</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="tempf">
+          <th scope="row" class="gray">temp(°C)</th>
+        </tr>
+        <tr id="rainf">
+          <th scope="row" class="black">Rainfall(mm)</th>
+        </tr>
+        <tr id="windf">
+          <th scope="row" class="gray">Windspeed(mph)</th>
+        </tr>
+      </tbody>
+
+    </table>
+   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body {
+  background-image: url('https://source.unsplash.com/1920x1080/?landscape' );
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.table{
+  overflow-x: scroll;
+  color: white;
+  width: 520px;
+  max-width: 100%;
+  height: 150px;
+  position: absolute;
+   top:-600px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.black{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.gray {
+  background-color: rgba(102, 102, 102, 0.8);
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+
+  padding: 40px 20px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+tr:nth-child(even) td {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgba(102, 102, 102, 0.8);
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 25px;
+  width: 520px;
+  max-width: 100%;
+  height: 370px;
+
+  position: absolute;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+input {
+  width: 350px;
+  max-width: 100%;
+  height: 40px;
+  border-radius: 25px;
+  margin-left: 50px ;
+  margin-top: 50px;
+  background-color: rgba(102, 102, 102, 0.8);
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+  outline: none;
+  border: none;
+
+}
+
+#search{
+  width: 30px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+  background-color: rgba(102, 102, 102, 0.8);
+  color: white;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(191, 191, 191, 0.8);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+h1 , h2, .data , .conditions {
+  margin-left: 50px ;
+}
+
+.data{
+  font-size: 20px;
+}
+
+.conditions{
+  display: inline;
+  font-size: 20px;
+}
+
+img{
+  width: 30px;
+}
+#windSpeed {
+  margin-bottom: 20px;
+}
